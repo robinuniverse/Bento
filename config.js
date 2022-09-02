@@ -87,6 +87,13 @@ const CONFIG = {
 			icon: 'youtube',
 			link: 'https://www.youtube.com/',
 		},
+		{
+			id: '7',
+			name: 'FastMail',
+			icon: 'mail',
+			link: 'https://www.fastmail.com/mail/Inbox/?u=79c94018',
+
+		}
 	],
 
 	secondButtonsContainer: [
