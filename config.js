@@ -71,9 +71,9 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Code',
-			icon: 'code',
-			link: 'https://code.hirob.in/',
+			name: 'FastMail',
+			icon: 'mail',
+			link: 'https://www.fastmail.com/mail/Inbox/?u=79c94018',
 		},
 		{
 			id: '5',
