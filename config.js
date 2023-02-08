@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Youtube',
-			icon: 'youtube',
-			link: 'https://www.youtube.com/',
+			name: 'Bitwarden',
+			icon: 'folder-key',
+			link: 'https://bitwarden.elgin.edu/#/login',
 		},
 	],
 
