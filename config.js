@@ -5,13 +5,22 @@
 // │  │ ││││├┤ ││ ┬│ │├┬┘├─┤ │ ││ ││││
 // └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
 
+const Http = new XMLHttpRequest();
+const url='http://clothmc.fun/front';
+Http.open("GET", url);
+Http.send();
+
+Http.onreadystatechange = (e) => {
+  console.log(Http.responseText)
+}
+
 const CONFIG = {
 	// ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
 	// ├┴┐├─┤└─┐││  └─┐
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Robin & Theta',
+	name: Http.responseText,
 	imageBackground: false,
 	openInNewTab: false,
 	twelveHourFormat: true,
